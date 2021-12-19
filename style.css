@@ -1,0 +1,80 @@
+body{
+    background-color: #845EC2;
+    color: white;
+    padding-top: 90px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1em !important;
+  }
+
+  .container > div {
+    background-color: #2C73D2;
+    margin: 10px;
+    padding: 20px;
+    border: white solid;
+    border-radius: 20px;
+    height: calc(82vh - 100px);
+ }  
+
+ .card-img-top{
+     border-radius: 20px;
+     border: rgb(255, 255, 255) solid 4px;
+ } 
+
+ .card {
+     background-color: #00C9A7 !important; 
+ } 
+
+ .btn {
+     border-radius: 20px;
+     font-weight: 500;
+ }
+
+ .mod-head {
+     border-bottom: white solid 3px;
+     font-weight: 500;
+}
+
+.card-title{
+    font-weight: 600 !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+.nav-bar{
+    background-color: rgba(255, 255, 255, 0.575) ;
+    color: black;
+    overflow: hidden;
+    border-radius: 30px;
+    text-align: center;
+    padding: 0.8em;
+    top: 0;
+}
+.sticky{
+    position: fixed;
+    top: 10px;
+    z-index:1;
+    width: 100%;
+}
+@media (max-width: 800px) {
+    .container {
+      flex-direction: column;
+      
+    }
+    .container > div {
+        width: 90% !important;
+    }
+    body{
+        padding-top: 80px;
+    }
+    .nav-bar{
+        width: fit-content;
+    }
+    .nav-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
