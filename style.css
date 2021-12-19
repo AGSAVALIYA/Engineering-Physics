@@ -17,7 +17,7 @@ body{
     padding: 20px;
     border: white solid;
     border-radius: 20px;
-    height: calc(82vh - 100px);
+    height: calc(90vh - 100px);
  }  
 
  .card-img-top{
