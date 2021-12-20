@@ -1,7 +1,8 @@
 body{
-    background-color: #845EC2;
-    color: white;
+    background-image: url(img/bg.jpg);
+    color: rgb(0, 0, 0);
     padding-top: 90px;
+    background-attachment: fixed;
 }
 .container {
     display: flex;
@@ -11,44 +12,49 @@ body{
     font-size: 1em !important;
   }
 
-  .container > div {
+.container > div {
     background-color: #2C73D2;
     margin: 10px;
     padding: 20px;
-    border: white solid;
+    border: rgb(0, 0, 0) solid 4px;
     border-radius: 20px;
     height: calc(90vh - 100px);
  }  
 
  .card-img-top{
      border-radius: 20px;
-     border: rgb(255, 255, 255) solid 4px;
+     border: rgb(0, 0, 0) solid 4px;
  } 
 
  .card {
-     background-color: #00C9A7 !important; 
+     background-color: #00c9a7a8 !important; 
  } 
 
  .btn {
      border-radius: 20px;
      font-weight: 500;
+     border: black solid;
  }
 
  .mod-head {
-     border-bottom: white solid 3px;
+     border-bottom: rgb(0, 0, 0) solid 3px;
      font-weight: 500;
 }
 
 .card-title{
     font-weight: 600 !important;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    text-decoration: underline;
+}
+.card-text{
+    font-weight: 500 !important;
 }
 .nav-bar{
-    background-color: rgba(255, 255, 255, 0.575) ;
-    color: black;
+    background-color: rgba(0, 255, 255, 0.822) ;
     overflow: hidden;
-    border-radius: 30px;
     text-align: center;
+    border: black solid;
+    border-radius: 20px;
     padding: 0.8em;
     top: 0;
 }
@@ -58,6 +64,18 @@ body{
     z-index:1;
     width: 100%;
 }
+.credits{
+    background-color: rgba(3, 245, 245);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.cflex{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
 @media (max-width: 800px) {
     .container {
       flex-direction: column;
@@ -65,6 +83,7 @@ body{
     }
     .container > div {
         width: 90% !important;
+        height: calc(75vh - 100px);
     }
     body{
         padding-top: 80px;
@@ -75,6 +94,5 @@ body{
     .nav-flex{
         display: flex;
         justify-content: center;
-        align-items: center;
     }
   }
