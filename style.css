@@ -65,11 +65,13 @@ body{
     width: 100%;
 }
 .credits{
-    background-color: rgba(3, 245, 245);
+    background-color: rgba(3, 245, 245, 0.836);
     width: fit-content;
     padding: 5px;
-    border-radius: 10px;
-    font-weight: 500;
+    border: black solid;
+    border-radius: 20px;
+    font-size: 2em;
+    font-weight: bold;
 }
 .cflex{
     display: flex;
