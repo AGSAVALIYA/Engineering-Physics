@@ -27,7 +27,7 @@ body{
  } 
 
  .card {
-     background-color: #00c9a7a8 !important; 
+     background-color: #07fde9a8 !important; 
  } 
 
  .btn {
@@ -53,7 +53,7 @@ body{
     background-color: rgba(0, 255, 255, 0.822) ;
     overflow: hidden;
     text-align: center;
-    border: black solid;
+    border: black solid 4px;
     border-radius: 20px;
     padding: 0.8em;
     top: 0;
@@ -66,9 +66,8 @@ body{
 }
 .credits{
     background-color: rgba(3, 245, 245, 0.836);
-    width: fit-content;
     padding: 5px;
-    border: black solid;
+    border: black solid 4px;
     border-radius: 20px;
     font-size: 2em;
     font-weight: bold;
