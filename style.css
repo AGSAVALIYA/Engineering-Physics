@@ -1,99 +1,109 @@
-body{
-    background-image: url(img/bg.jpg);
-    color: rgb(0, 0, 0);
-    padding-top: 100px;
-    background-attachment: fixed;
+body {
+  background-image: url(img/bg.jpg);
+  color: rgb(0, 0, 0);
+  padding-top: 100px;
+  background-attachment: fixed;
 }
 .container {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-size: 1em !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 1em !important;
+}
+
+.card {
+  background-color: #07fde9a8;
+  margin: 10px;
+  padding: 20px;
+  border: rgb(0, 0, 0) solid 4px;
+  border-radius: 20px;
+}
+
+.card-img-top {
+  border-radius: 20px;
+  border: rgb(0, 0, 0) solid 4px;
+}
+
+.btn {
+  border-radius: 20px;
+  font-weight: 500;
+  border: black solid;
+}
+
+.mod-head {
+  border-bottom: rgb(0, 0, 0) solid 3px;
+  font-weight: 500;
+}
+
+.card-title {
+  font-weight: 600 !important;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+  text-decoration: underline;
+}
+.card-text {
+  font-weight: 500 !important;
+}
+.nav-bar {
+  background-color: rgba(0, 255, 255, 0.822);
+  overflow: hidden;
+  text-align: center;
+  border: black solid 4px;
+  border-radius: 20px;
+  padding: 0.8em;
+  top: 0;
+}
+.sticky {
+  position: fixed;
+  top: 10px;
+  z-index: 1;
+  width: 100%;
+}
+.credits {
+  background-color: rgba(3, 245, 245, 0.836);
+  padding: 5px;
+  border: black solid 4px;
+  border-radius: 20px;
+  font-size: 2em;
+  font-weight: bold;
+}
+.cflex {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.nav-flex {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
   }
-
-.container > div {
-    background-color: #2C73D2;
-    margin: 10px;
-    padding: 20px;
-    border: rgb(0, 0, 0) solid 4px;
-    border-radius: 20px;
-    height: calc(90vh - 100px);
- }  
-
- .card-img-top{
-     border-radius: 20px;
-     border: rgb(0, 0, 0) solid 4px;
- } 
-
- .card {
-     background-color: #07fde9a8 !important; 
- } 
-
- .btn {
-     border-radius: 20px;
-     font-weight: 500;
-     border: black solid;
- }
-
- .mod-head {
-     border-bottom: rgb(0, 0, 0) solid 3px;
-     font-weight: 500;
-}
-
-.card-title{
-    font-weight: 600 !important;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
-    text-decoration: underline;
-}
-.card-text{
-    font-weight: 500 !important;
-}
-.nav-bar{
-    background-color: rgba(0, 255, 255, 0.822) ;
-    overflow: hidden;
-    text-align: center;
-    border: black solid 4px;
-    border-radius: 20px;
-    padding: 0.8em;
-    top: 0;
-}
-.sticky{
-    position: fixed;
-    top: 10px;
-    z-index:1;
-    width: 100%;
-}
-.credits{
-    background-color: rgba(3, 245, 245, 0.836);
-    padding: 5px;
-    border: black solid 4px;
-    border-radius: 20px;
-    font-size: 2em;
-    font-weight: bold;
-}
-.cflex{
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  body {
+    padding-top: 80px;
+  }
+  .nav-bar {
+    width: fit-content;
+  }
+  .nav-flex {
     display: flex;
     justify-content: center;
-    padding-bottom: 5px;
-}
-@media (max-width: 800px) {
-    .container {
-      flex-direction: column;
-      
-    }
-    .container > div {
-        width: 90% !important;
-        height: calc(75vh - 100px);
-    }
-    body{
-        padding-top: 80px;
-    }
-    .nav-bar{
-        width: fit-content;
-    }
-    .nav-flex{
-        display: flex;
-        justify-content: center;
-    }
   }
+  img {
+    max-width: fit-content;
+  }
+  .card-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
