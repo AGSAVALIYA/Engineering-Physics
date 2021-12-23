@@ -27,9 +27,10 @@ body {
 }
 
 .btn {
+  text-align: center;
   display: block;
   height: 100%;
-  width: 100%;
+  width: 205px;
   text-decoration: none;
   border-radius: 20px;
   font-weight: 500;
