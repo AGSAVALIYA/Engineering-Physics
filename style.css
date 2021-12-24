@@ -5,12 +5,12 @@ body {
   background-attachment: fixed;
 }
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
   font-size: 1em !important;
+  justify-items: center;
 }
 
 .card {
@@ -29,7 +29,6 @@ body {
 .btn {
   text-align: center;
   display: block;
-  height: 100%;
   width: 205px;
   text-decoration: none;
   border-radius: 20px;
@@ -100,32 +99,12 @@ body {
   margin-bottom: 20px;
 }
 
-@media (max-width: 800px) {
-  .container {
-    flex-direction: column;
-  }
-  .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 10px;
-  }
-  body {
-    padding-top: 80px;
-  }
-  .nav-bar {
-    width: fit-content;
-  }
-  .nav-flex {
-    display: flex;
-    justify-content: center;
-  }
-  img {
-    max-width: fit-content;
-  }
-  .card-body {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
+@media (min-width: 700px) {
+  .container { grid-template-columns: repeat(2, 1fr); }
 }
+
+@media (min-width: 900px) {
+  .container { grid-template-columns: repeat(3, 1fr); }
+}
+
+
