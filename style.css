@@ -101,6 +101,12 @@ body {
 
 @media (min-width: 700px) {
   .container { grid-template-columns: repeat(2, 1fr); }
+  .card{
+    transition: 0.3s;
+  }
+  .card:hover {
+    transform: scale(1.1);
+  }
 }
 
 @media (min-width: 970px) {
