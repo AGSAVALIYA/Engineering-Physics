@@ -1,6 +1,6 @@
 body {
   background-image: url(img/bg.jpg);
-  color: rgb(0, 0, 0);
+  color: white;
   padding-top: 100px;
   background-attachment: fixed;
 }
@@ -14,16 +14,17 @@ body {
 }
 
 .card {
-  background-color: #07fde9a8;
+  background-color: rgba(255, 255, 255, 0.24);  
+  backdrop-filter: blur(5px);
   margin: 10px;
   padding: 20px;
-  border: rgb(0, 0, 0) solid 4px;
-  border-radius: 20px;
+  border: white solid 4px;
+  border-radius: 10px;
 }
 
 .card-img-top {
   border-radius: 20px;
-  border: rgb(0, 0, 0) solid 4px;
+  border: white solid 4px;
 }
 
 .btn {
@@ -31,9 +32,11 @@ body {
   display: block;
   width: 205px;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 10px;
   font-weight: 500;
-  border: black solid;
+  border: white solid;
+  background-color: rgba(65, 65, 65, 0.24);  
+  
 }
 
 .btn:hover {
@@ -43,7 +46,7 @@ body {
 
 .mod-head {
   text-align: center;
-  border-bottom: rgb(0, 0, 0) solid 4px;
+  border-bottom: white solid 4px;
   font-weight: 500;
 }
 
@@ -57,11 +60,12 @@ body {
   font-weight: 500 !important;
 }
 .nav-bar {
-  background-color: rgba(0, 255, 255, 0.822);
+  background-color: rgba(255, 255, 255, 0.24);  
+  backdrop-filter: blur(5px);
   overflow: hidden;
   text-align: center;
-  border: black solid 4px;
-  border-radius: 20px;
+  border: rgb(255, 255, 255) solid 4px;
+  
   padding: 0.8em;
   top: 0;
 }
@@ -72,7 +76,8 @@ body {
   width: 100%;
 }
 .credits {
-  background-color: rgba(3, 245, 245, 0.836);
+  background-color: rgba(255, 255, 255, 0.24);  
+  backdrop-filter: blur(5px);
   padding: 5px;
   border: black solid 4px;
   border-radius: 20px;
