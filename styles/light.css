@@ -23,7 +23,7 @@ body {
   backdrop-filter: blur(10px);
   margin: 10px;
   padding: 20px;
-  border: solid rgb(0, 128, 100);
+  border: solid rgb(0, 128, 100) 4px;
   border-radius: 10px;
 }
 
