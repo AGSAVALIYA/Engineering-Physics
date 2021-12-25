@@ -1,6 +1,6 @@
 body {
   background-image: url(img/bg.jpg);
-  color: white;
+  color: rgba(32, 71, 55);
   padding-top: 100px;
   background-attachment: fixed;
 }
@@ -14,17 +14,16 @@ body {
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.24);  
-  backdrop-filter: blur(5px);
+  background-color: rgba(161, 204, 200, 0.24);  
+  backdrop-filter: blur(10px);
   margin: 10px;
   padding: 20px;
-  border: white solid 4px;
   border-radius: 10px;
 }
 
 .card-img-top {
   border-radius: 20px;
-  border: white solid 4px;
+  border: rgb(0, 0, 0) solid 2px;
 }
 
 .btn {
@@ -34,19 +33,20 @@ body {
   text-decoration: none;
   border-radius: 10px;
   font-weight: 500;
-  border: white solid;
-  background-color: rgba(65, 65, 65, 0.24);  
+  border: rgb(0, 0, 0) solid 2px;
+  background-color: rgba(192, 192, 192, 0.24);  
   
 }
 
 .btn:hover {
-  background-color: orangered;
+  background-color: rgba(32, 71, 55, 0.849);
   color: rgb(255, 255, 255);
+  border: rgb(0, 0, 0) solid 2px;
 }
 
 .mod-head {
   text-align: center;
-  border-bottom: white solid 4px;
+  border-bottom: rgb(0, 0, 0) solid 2px;
   font-weight: 500;
 }
 
@@ -60,12 +60,12 @@ body {
   font-weight: 500 !important;
 }
 .nav-bar {
-  background-color: rgba(255, 255, 255, 0.24);  
-  backdrop-filter: blur(5px);
+  background-color: rgba(161, 204, 200, 0.24);  
+  backdrop-filter: blur(10px);
   overflow: hidden;
   text-align: center;
-  border: rgb(255, 255, 255) solid 4px;
-  
+  border: rgb(23, 51, 48) solid 2px;
+  border-radius: 20px;
   padding: 0.8em;
   top: 0;
 }
@@ -76,12 +76,12 @@ body {
   width: 100%;
 }
 .credits {
-  background-color: rgba(255, 255, 255, 0.24);  
-  backdrop-filter: blur(5px);
+  background-color: rgba(161, 204, 200, 0.24);  
+  backdrop-filter: blur(10px);
   padding: 5px;
-  border: black solid 4px;
+  border: rgb(23, 51, 48) solid 2px;
   border-radius: 20px;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
@@ -91,7 +91,7 @@ body {
 
 .profile:hover{
   text-decoration: underline;
-  color:white;
+  color:rgba(32, 71, 55, 0.849);
 }
 
 .cflex {
