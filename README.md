@@ -1,6 +1,6 @@
 # Engineering-Physics
 
-web-link: https://agsavaliya.github.io/Engineering-Physics/
+web-link: https://physics.kjsieit.ml
 
 Made with ❤️ by Akshit Savaliya.
 
